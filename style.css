@@ -40,12 +40,12 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .header-fssai-logo {
-    width: 55px;
-    height: 55px;
+    width: 100px;
+    height: 85px;
     object-fit: contain;
     flex-shrink: 0;
 }
@@ -56,14 +56,14 @@ header {
 }
 
 .brand-title {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     font-weight: 900;
     color: var(--primary);
     letter-spacing: 1px;
 }
 
 .brand-sub {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: var(--accent);
     letter-spacing: 2px;
@@ -650,24 +650,18 @@ footer {
 
 /* Mobile Responsive */
 
-@media (max-width: 600px) {
-
-    .fssai-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 25px 18px;
-        gap: 20px;
+@media (max-width: 768px) {
+    .header-fssai-logo {
+        width: 75px;
+        height: 70px;
     }
 
-    .fssai-logo {
-        width: 120px;
+    .brand-title {
+        font-size: 1.7rem;
     }
 
-    .fssai-details h2 {
-        font-size: 21px;
+    .brand-sub {
+        font-size: 0.7rem;
     }
-
-    .license-box {
-        text-align: center;
-    }
+}
 }
