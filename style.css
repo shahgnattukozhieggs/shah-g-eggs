@@ -538,3 +538,113 @@ footer {
     font-weight: 700;
     margin-top: 0.4rem;
 }
+
+
+/* =========================
+   FSSAI INFORMATION SECTION
+========================= */
+
+.fssai-section {
+    background: #f4f8f2;
+    padding: 55px 20px;
+}
+
+.fssai-container {
+    max-width: 950px;
+    margin: auto;
+    padding: 30px 40px;
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #dce8d8;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.fssai-logo-area {
+    min-width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fssai-logo {
+    width: 145px;
+    height: auto;
+    object-fit: contain;
+}
+
+.fssai-details {
+    flex: 1;
+}
+
+.fssai-label {
+    color: #278342;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.fssai-details h2 {
+    color: #245c32;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.fssai-details p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.license-box {
+    margin: 20px 0 12px;
+    padding: 15px 20px;
+    background: #eff7ed;
+    border-left: 4px solid #278342;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.license-box span {
+    color: #555;
+    font-size: 13px;
+}
+
+.license-box strong {
+    color: #245c32;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.fssai-details small {
+    color: #888;
+    font-size: 12px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+    .fssai-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 18px;
+        gap: 20px;
+    }
+
+    .fssai-logo {
+        width: 120px;
+    }
+
+    .fssai-details h2 {
+        font-size: 21px;
+    }
+
+    .license-box {
+        text-align: center;
+    }
+}
