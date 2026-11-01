@@ -44,8 +44,8 @@ header {
 }
 
 .header-fssai-logo {
-    width: 100px;
-    height: 85px;
+    width: 190px;
+    height: 145px;
     object-fit: contain;
     flex-shrink: 0;
 }
